@@ -1,22 +1,18 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,c,result;
+    int a;
 
-    printf("Informe 3 valores inteiros: \n");
+    printf("Informe um valore inteiro: \n");
     scanf("%d", &a);
-    scanf("%d", &b);
-    scanf("%d", &c);
 
-    result = (a + b) * (c * c);
-
-    printf("%d",result);
-
-    if (result % 2 == 0){
-        printf(" O resultado = par");
-    }else{
-        printf(" O resultado = impar");
-    };
+    if(a <= 10){
+        printf("F1");
+    }else if(a > 10 && a <= 100){
+        printf("F2");
+    }else if(a > 100){
+        printf("F3");
+    }
 
     return 0;
 

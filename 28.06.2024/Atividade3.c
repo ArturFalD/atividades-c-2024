@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,calc;
+    int x,y,z;
 
-    printf("Informe 2 valores inteiros: \n");
-    scanf("%d", &a);
-    scanf("%d", &b);
+    printf("Informe 3 valores inteiros: \n");
+    scanf("%d", &x);
+    scanf("%d", &y);
+    scanf("%d", &z);
 
-    if(a == b){
-        calc = a * b;
-        printf("Os valores são iguais e a multiplicação entre eles é igual a %d", calc);
+    if(x + y > z){
+        printf("A soma X + Y e maior do que Z");
+    }else if(x + y < z){
+        printf("A soma X + Y e menor do que Z");
     }else{
-        calc = a + b;
-        printf("Os valores são diferentes e a soma entre eles é igual a %d", calc);
-    };
+        printf("A soma X + Y e igual a Z");
+    }
 
     return 0;
 
