@@ -26,6 +26,5 @@ int main(){
     //alterado da pergunta pois se o salario fosse
     //exatamente 3000 não se encaixaria em nem um caso
 
-
     return 0;
 }
