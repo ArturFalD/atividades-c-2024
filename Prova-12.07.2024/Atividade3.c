@@ -72,7 +72,6 @@ int main(){
     }
     printf("Porcentagem de desconto dado ao cliente: %d porcento \n", desconto);
     
-
     return 0;
     
 }
