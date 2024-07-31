@@ -14,8 +14,6 @@ int main(){
             soma += x;
             positivoContador++;
         }
-        
-
     }
     
     printf("Quantidade de numeros negativos: %d\n",negativoContador);
