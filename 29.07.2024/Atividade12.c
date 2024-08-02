@@ -16,7 +16,7 @@ int main(){
         }else if (x < r){
             printf("O numero digitado e menor do que o numero aleatorio \n");
         }
-        cont++;
+        cont++;0
     }
 
     printf("Voce acertou! o numero era: %d \n",r);
